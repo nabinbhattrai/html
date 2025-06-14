@@ -1,31 +1,24 @@
 <!DOCTYPE html>
-
 <html>
+    <head>
+        <title>Numeric variables</title>
+    </head>
+    <body>
+        <p>Click the button to <evaluate>
+        JavaScript code/expressions.</p>
+        <button onclick="myFunction()">Try it</button>
+        <p id="result"></p>
+        <script>
+            function myFunction() {
+                var x= 10;
+                var y= 20;
+                var a= eval("x+y") + "<br>";
+                var b= eval(2*2) + "<br>";
+                var c= eval("y-x")+ "<br";
 
-<body>
-
-    <h2>JavaScript Statements</h2>
-
-    <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
-
-    <p id="demo"></p>
-
-    <script>
-
-        var x, y, z; // Statement 1
-
-        x = 5; // Statement 2
-
-        y = 6; // Statement 3
-
-        z = x + y; // Statement 4
-
-        document.getElementById("demo").innerHTML =
-
-            "The value of z is " + z + ".";
-
-    </script>
-
-</body>
-
+                var res= a+ b+ c;
+                document.getElementById("result").innerHTML = res;
+            }
+        </script>
+    </body>
 </html>
