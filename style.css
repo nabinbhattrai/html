@@ -1,6 +1,29 @@
-h3{color:blue;}
-*{font-size: 30px;
-font-weight: 500;}
-h4{color:aqua;}
-.myclass{color:blueviolet;}
-#myid{color:chocolate;}
+body{
+    background-color: aquamarine;
+}
+h1{
+    text-align: center;
+    text-decoration: dashed;
+    text-transform: capitalize;
+    text-shadow: 10cap;
+    text-decoration-color: rgb(255, 0, 21);
+}
+.myslides{
+    height: 500px;
+    width: 50%;
+}
+img{
+     width : 200 px;
+}
+.carousel-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+.myslides{
+    display: inline-flex;
+    max-height: 100%;
+    max-width: 100%;
+
+}
